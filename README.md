@@ -1,87 +1,84 @@
 # TASK-3-Neharshitha
 SQL-based data analysis project demonstrating database design, data querying, joins, aggregations, and business insights using real-world datasets.
-# Superstore Sales Analysis Dashboard
+# SQL based Superstore Sales Analysis Dashboard
+# SQL Data Analysis Project
 
 ## Project Overview
-
-This project analyzes Superstore sales data using Python, Pandas, and Matplotlib. The main objective is to identify sales trends, regional performance, category-wise sales, and business insights through data visualization.
+This project focuses on analyzing a sales dataset using SQL queries. The objective is to extract meaningful insights from raw data by applying SQL fundamentals such as data selection, filtering, sorting, grouping, and aggregation.
 
 ## Objectives
+- Retrieve data using SELECT statements
+- Filter records using WHERE clause
+- Sort records using ORDER BY
+- Group data using GROUP BY
+- Perform aggregations using COUNT(), SUM(), and AVG()
+- Generate useful business insights from the dataset
 
-- Analyze sales performance across different regions.
-- Identify top-performing product categories.
-- Study monthly sales trends.
-- Generate business insights and recommendations.
-- Create visual dashboards for decision-making.
+## Tools Used
+- MySQL
+- SQL
+- CSV Dataset
+- Git & GitHub
 
 ## Dataset
+The dataset used for this project contains sales-related information. It was imported into MySQL for performing various analytical queries.
 
-The dataset contains:
+## Queries Performed
 
-- Order Details
-- Customer Information
-- Product Categories
-- Sales Records
-- Regional Information
-- Order Dates
+### 1. SELECT Query
+Used to retrieve records from the dataset.
 
-## Tools and Technologies
+### 2. WHERE Clause
+Filtered records based on specific conditions.
 
-- Python
-- Pandas
-- Matplotlib
-- VS Code
-- GitHub
+### 3. ORDER BY
+Sorted records in ascending or descending order.
 
-## Project Workflow
+### 4. COUNT with GROUP BY
+Counted the number of records in each category.
 
-1. Data Collection
-2. Data Cleaning
-3. Data Transformation
-4. Exploratory Data Analysis (EDA)
-5. Data Visualization
-6. Insight Generation
-7. Business Recommendations
+### 5. SUM with GROUP BY
+Calculated total sales for each category.
 
-## Visualizations Created
+### 6. AVG with GROUP BY
+Calculated average sales for each category.
 
-- Sales by Region
-- Sales by Category
-- Monthly Sales Trend
-- Top Performing Products
+### 7. Top States Analysis
+Identified states with the highest sales performance.
+
+## Project Files
+- train.csv
+- select.png
+- where.png
+- order.png
+- countgroup.png
+- sumgroup.png
+- avggroup.png
+- top_states.png
 
 ## Key Insights
+- Identified top-performing categories based on total sales.
+- Analyzed category-wise distribution of records.
+- Calculated average sales across categories.
+- Discovered important sales trends using SQL queries.
 
-- Regional sales performance varies significantly.
-- Technology products contribute a major share of revenue.
-- Monthly sales trends reveal seasonal variations.
-- Top-performing products generate a large portion of total sales.
-
-## Business Recommendations
-
-- Focus marketing efforts on high-performing regions.
-- Promote top-selling products through targeted campaigns.
-- Improve inventory management using sales trends.
-- Use data-driven strategies to improve business performance.
-
-## Project Structure
-
-Project4/
-│
-├── train.csv
-├── project4.py
-├── dashboard_charts/
-│ ├── sales_by_region.png
-│ ├── sales_by_category.png
-│ ├── monthly_sales_trend.png
-│ └── top_products.png
-└── Project4_Presentation.pptx
-
-## Conclusion
-
-This project demonstrates how data analytics and visualization can transform raw sales data into actionable business insights. The findings can support better decision-making, improve operational efficiency, and drive business growth.
+## Learning Outcomes
+- Understanding SQL query syntax.
+- Data filtering and sorting techniques.
+- Aggregation using COUNT(), SUM(), and AVG().
+- Grouping data for analysis.
+- Extracting actionable insights from datasets.
 
 ## Author
-Mooli Neharshitha
-
+Mooli Neharshitha  
 Data Analytics Intern – DecodeLabs
+
+## Conclusion
+This project demonstrates the practical application of SQL for data analysis. Through various queries and aggregations, meaningful insights were extracted from the dataset, strengthening foundational SQL and analytical skills.
+
+
+
+
+
+
+
